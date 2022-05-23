@@ -1,0 +1,21 @@
+<div>
+
+    
+    <!-- <input type='text'	 [(ngModel)]='note'/> -->
+
+    <tr *ngFor='let tl of timerLog, let i = index'>
+				<!-- <td>{{prod.prodName}}</td> -->
+                <div class="card" style="width: 18rem;">
+                    <!-- <div class="card-body">
+                      <h5 class="card-title">TODO</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <p class="card-text">{{td}}</p>
+                      
+                    </div> -->
+                    <h2>
+
+                       {{i}} {{tl.hr}}:{{tl.min}}:{{tl.sec}}
+                    </h2>
+                  </div>
+	</tr>
+</div>
